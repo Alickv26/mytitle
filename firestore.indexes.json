@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "publicSlug",
+          "order": "ASC"
+        },
+        {
+          "fieldPath": "isPublic",
+          "order": "ASC"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
